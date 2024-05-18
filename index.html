@@ -1,0 +1,316 @@
+<html lang="en-US">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <meta name="Author" content="Devon J. Kelley" />
+        <title>The Dragon's Solo D&D Actual Play</title>
+        <style>
+          body {
+            text-align: justify;
+            margin-right: auto;
+            margin-left: auto;
+            min-width: 400px;
+            max-width: 900px;
+            background-color: #eeeeee;
+          }
+          #header {
+            background-color: darkred;
+            color: #eeeeee;
+            padding-top: 10px;
+            text-align: center;
+          }
+          #navbar {
+            background-color: darkgoldenrod;
+            height: 3.15em; 
+            margin-top: 1em;
+            margin-bottom: 1em;
+            /* padding-right: 1em;
+            padding-top: 1em; */
+            text-align: center;
+          }
+          .nav {
+            color: black;
+            padding-right: 1em;
+            padding-left: 1em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            text-decoration: none;
+            vertical-align: middle;
+            /* height: 2.5em; */
+            display: inline-block;
+          }
+          .nav:hover {
+            background-color: darkred;
+            color: white;
+          }
+          label {
+            margin-right: 10px;
+          }
+          h1, h2 {
+            text-align: center;
+          }
+          blockquote {
+            background-color: darkgoldenrod;
+            border-radius: 15px;
+            border: solid 3px darkgoldenrod;
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+          img {
+            width: 100%;
+          }
+          #content {
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+          .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 160px;
+            z-index: 1;
+            background-color: darkgoldenrod;
+            /* margin-top: 1em; */
+          }
+          .dropdown-content a:hover {
+            background-color: darkred;
+            color: white;
+          }
+          .dropdown-content a {
+            color: black;
+            text-decoration: none;
+            padding: 1em;
+          }
+          .dropdown-content a {
+            display: block;
+          }
+          .show {
+            display: block;
+          }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+        <h1>The Dragons</h1>
+        <h3>A solo D&D 3.5 Actual Play</h3>
+        <div id="navbar">
+          <a href="" class="nav" id="home">HOME</a>
+          <div class="dropdown">
+          <a href="" class="nav" id="chapters">CHAPTERS</a>
+          <div class="dropdown-content" id="dropdown">
+            <!--will add links via javascript-->
+          </div>
+          </div>
+          <a href="" class="nav" id="tools">TOOLS</a>
+        </div>
+        </div>
+        <div id="content">
+          <p>My name is Devon and my journey with tabletop roleplaying games began in 2004 with a little computer game called Neverwinter Nights. A friend recommended it to me, and I was instantly hooked. The more I played it, the more I became interested in the rules behind the game, Dungeons & Dragons Third Edition. I did a little reading on the internet about it and decided I needed to try that game. I found the Player's Handbook at a bookstore and read it several times. I didn't find a group to play with until 2007 after a move for work. I quickly branched out into other games, but always kept my love for D&D 3.5, my original game.</p>
+          <p>The purpose of this site is twofold: To document my characters' adventures through this solo campaign, and to practice my web development skills. My plan is to iterate this site and learn new techniques as the adventure continues to grow. I hope you enjoy the adventure and presentation of the site!</p>
+        </div>
+    </body>
+    <script>
+      // grab handles to the document elements I need
+      const chapters = document.getElementById("chapters");
+      const home = document.getElementById("home");
+      const tools = document.getElementById("tools");
+      const content = document.getElementById("content");
+      const defaultHome = content.innerHTML;
+      const dropDown = document.getElementById("dropdown");
+
+      // add event handlers for the navigation links
+      home.addEventListener("click", buildHome);
+      chapters.addEventListener("click", buildChapters);
+      tools.addEventListener("click", buildTools);
+
+      // build an array of the session reports available to display
+      let sessionArray = new Array();
+
+      // get the contents of the server folder
+      window.addEventListener("load", async () => {
+        const response = await fetch("https://api.github.com/repos/sharkbone/thedragons/contents/");
+        const data = await response.json();
+           
+        // test for text files, which contain the sessions
+        for (let file of data) {
+          let fileName = file.name;
+          let name = fileName.split(".");
+
+          // put the text file names into an array to build the dropdown menu later
+          if (name[1] === "text") {
+            sessionArray.push(name[0]);
+          }
+        }
+
+        // build the dropdown list
+        sessionArray.forEach((sesh) => {
+          const menuItem = document.createElement("a");
+          menuItem.setAttribute("href", "");
+          menuItem.innerText = sesh[0].toUpperCase() + sesh.slice(1, 7) + " " + sesh.slice(7);
+          dropDown.appendChild(menuItem);
+
+          // add an event listener to open the associated session document when clicked
+          menuItem.addEventListener("click", (e) => {
+            e.preventDefault();
+            const fetchSession = fetch(`https://sharkbone.github.io/thedragons/${sesh}.text`);
+            fetchSession.then((response) => {
+              if (!response.ok) {
+                throw new Error(`Error loading session: ${response.status}`);
+              }
+              return response.text();
+            }).then((data) => {
+              content.innerHTML = data;
+            }).catch((error) => {
+              content.innerHTML = `Error: ${error}`;
+            });
+            dropDown.classList.toggle("show");
+          });
+        });
+      });
+
+      // the event functions follow
+      function buildHome(e) {
+        e.preventDefault();
+        content.innerHTML = defaultHome;
+      }
+
+      function buildChapters(e) {
+        e.preventDefault();
+
+        dropDown.classList.toggle("show");
+      }
+
+      function buildTools(e) {
+        e.preventDefault();
+        // clear out the content, first
+        content.innerHTML = "";
+
+        // create the subheading
+        let toolsHeading = document.createElement("h2");
+        toolsHeading.innerText = "Tools";
+        content.appendChild(toolsHeading);
+
+        // create the form elements for the oracle
+        let formContainer = document.createElement("form");
+        let oracleForm = document.createElement("fieldset");
+        let oracleFormLegend = document.createElement("legend");
+        oracleFormLegend.innerText = "Ask the Oracle a question! What are the odds the answer is 'Yes'?";
+        oracleForm.appendChild(oracleFormLegend);
+
+        // create the elements for the Good Odds radio button
+        let oracleGood = document.createElement("input");
+        oracleGood.setAttribute("type", "radio");
+        oracleGood.setAttribute("value", "good");
+        oracleGood.setAttribute("name", "odds");
+        let oracleGoodLabel = document.createElement("label");
+        oracleGoodLabel.innerText = "Good Odds";
+        oracleGoodLabel.setAttribute("for", "good");
+
+        // create the elements for the Even Odds radio button
+        let oracleEven = document.createElement("input");
+        oracleEven.setAttribute("type", "radio");
+        oracleEven.setAttribute("value", "even");
+        oracleEven.setAttribute("name", "odds");
+        oracleEven.setAttribute("checked", true);
+        let oracleEvenLabel = document.createElement("label");
+        oracleEvenLabel.innerText = "Even Odds";
+        oracleEvenLabel.setAttribute("for", "even");
+
+        // create the elements for the Bad Odds radio button
+        let oracleBad = document.createElement("input");
+        oracleBad.setAttribute("type", "radio");
+        oracleBad.setAttribute("value", "bad");
+        oracleBad.setAttribute("name", "odds");
+        let oracleBadLabel = document.createElement("label");
+        oracleBadLabel.innerText = "Bad Odds";
+        oracleBadLabel.setAttribute("for", "bad");
+
+        // create the button to roll the odds and the paragraph to display the results
+        let oracleButton = document.createElement("button");
+        oracleButton.setAttribute("type", "submit");
+        oracleButton.innerHTML = "Roll 'em!";
+        let oraclePara = document.createElement("p");
+        oraclePara.innerText = "The Oracle says...";
+
+        // create the paragraphs to line up the radio buttons
+        let goodPara = document.createElement("p");
+        let evenPara = document.createElement("p");
+        let badPara = document.createElement("p");
+
+        // append the oracle elements
+        oracleForm.appendChild(oracleGood);
+        oracleForm.appendChild(oracleGoodLabel);
+        oracleForm.appendChild(oracleEven);
+        oracleForm.appendChild(oracleEvenLabel);
+        oracleForm.appendChild(oracleBad);
+        oracleForm.appendChild(oracleBadLabel);
+        oracleForm.appendChild(oracleButton);
+        oracleForm.appendChild(oraclePara);
+        formContainer.appendChild(oracleForm)
+        content.appendChild(formContainer);
+
+        // event listener for the form to roll the oracle dice
+        formContainer.addEventListener("submit", (e) => {
+          e.preventDefault();
+
+          // figure out which radio button is selected
+          const oddsSelect = new FormData(formContainer);
+          let odds = "";
+          for (const entry of oddsSelect) {
+            odds = `${entry[1]}`;
+          }
+
+          // now that we know, let's roll the oracle dice with the selected odds!
+          let diceOne = 0;
+          let diceTwo = 0;
+          let rollResult = 0;
+          let oracleMessage = "";
+          switch(odds) {
+            case 'good': 
+              diceOne = Math.floor(Math.random() * 10);
+              diceTwo = Math.floor(Math.random() * 10);
+              rollResult = Number(`${diceOne}${diceTwo}`);
+              if (rollResult < 91) {
+                oracleMessage = `The roll is ${rollResult}, which is a Yes!`;
+              } else {
+                oracleMessage = `The roll is ${rollResult}, which is a No!`;
+              }
+              if (diceOne === diceTwo) {oracleMessage += " This is a critical result!";}
+              oraclePara.innerText = oracleMessage;
+            break;
+
+            case 'even': 
+              diceOne = Math.floor(Math.random() * 10);
+              diceTwo = Math.floor(Math.random() * 10);
+              rollResult = Number(`${diceOne}${diceTwo}`);
+              if (rollResult < 61) {
+                oracleMessage = `The roll is ${rollResult}, which is a Yes!`;
+              } else {
+                oracleMessage = `The roll is ${rollResult}, which is a No!`;
+              }
+              if (diceOne === diceTwo) {oracleMessage += " This is a critical result!";}
+              oraclePara.innerText = oracleMessage;
+            break;
+
+            case 'bad': 
+              diceOne = Math.floor(Math.random() * 10);
+              diceTwo = Math.floor(Math.random() * 10);
+              rollResult = Number(`${diceOne}${diceTwo}`);
+              if (rollResult < 31) {
+                oracleMessage = `The roll is ${rollResult}, which is a Yes!`;
+              } else {
+                oracleMessage = `The roll is ${rollResult}, which is a No!`;
+              }
+              if (diceOne === diceTwo) {oracleMessage += " This is a critical result!";}
+              oraclePara.innerText = oracleMessage;
+            break;
+
+            default: oraclePara.innerText = "Something seems to have gone wrong...";
+          }
+        });
+      }
+    </script>
+</html>
