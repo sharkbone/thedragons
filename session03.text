@@ -1,0 +1,303 @@
+```HTML
+<h1>Session 3</h1>
+<h2>Session Setup</h2>
+<p>The characters are staying in a little inn in Orlath. This is Silver Flame territory, but right on the border. I don’t anticipate any problems with persecution or the like. They’re not shapechangers! I’m not sure there’s a whole lot more setup I need to do… They both got a night’s rest, so they’ll heal up a bit. That brings Dorlanann up to full, but Roswin is still <em>very</em> low on hp. He’ll drink a potion or several. All of the ones he bought previously bring him up to 25 of 35. Not great, but it’s what he’s got.</p>
+<h2>Session Play</h2>
+<p>The pair get up the next morning and stumble down to the common room to get something to eat. It was a long and hard journey and they are both very tired. </p>
+<p>“I’m going to need to find another shop to get some more heal potions,” Raswin says in a low voice. “I had to use all of the ones we brought, and I’m still not at 100%.” </p>
+<p>Dorlanann nods. “Right, Ok.” He leans back in his chair and sighs, thinking about how much lighter his purse is than it was when they started this journey. “We need a paying job.”</p>
+<p>Raswin chuckles. “Yep. Maybe we should have found a sponsor for this Ironroot Mountain quest before we left Sharn.” </p>
+<p>Dorlanann smiles at that. “Maybe so. But, then we’d probably be taking orders from someone else.” He shrugs. “I’m not interested in taking orders from someone I don’t respect. Or accept.”</p>
+<p>Raswin smiles at his friend. His friend <em>loves</em> taking orders. But, he’s right in that he doesn’t like taking orders from idiots. There were too many of those during the Last War.</p>
+<p>“All right,” Raswin says, “I’ll ask around and see what I can find.”</p>
+<blockquote><p>It’s time for some mechanics! I’ll roll a Gather Information to find a job. He’s <em>going</em> to find a job, but I want this roll to matter. I think it’s going to control what the pay is for the job. DMG says average treasure per encounter should be 1200gp at level 4. That’s supposed to be divided among 4 characters, and I only have 2. And, there should be several encounters in this quest. I’ll have the base pay be 600gp with a DC 15 Gather Information check. Every 5 points in either direction modifies the pay by 300gp. Roll: 12. So, they’ll only be offered 300 for the job. That’s great. 😆 Now I need to draw the job from The Oracle Story Generator. I drew “A false Knight needs to find the rumored location of a dangerous trade route threatened by a monster to prevent a summoning, but antimagic makes things harder.”</p>
+<p>Wow, this came from the Simple Side Quests deck, and it seems pretty involved. That’s great, though! I really should make a 3.5 npc generator. That’d be good JavaScript practice. </p>
+<p>Made a quick list of races/classes, so let’s see. Roll: Shifter / Beguiler. So, the false Knight is a Shifter Beguiler. That is a little too perfect to be random. 🤣</p>
+</blockquote>
+<p>Raswin meets a tall (everyone is tall compared to him) Shifter woman who says she’s looking for adventurers to help her on a quest. She goes by the name of Mist. The There is a secret trade route that goes from Thrane into Audnair and into the Eldeen Reaches. The path is difficult to find. </p>
+<blockquote><p>How is she connected? Does a family member use it and has gone missing? Mmm, they’re probably the ones who told her of the monster attacks. So, her family member has asked her to do something about the rumored monster/summoning. Ok.</p>
+</blockquote>
+<p>There is a monster on the path that is making it impossible for the traders who use the path to pass. It’s a secret because the government of Thrane is trying to crack down on it as it leads to the Eldeen Reaches where Shifters are plentiful. </p>
+<p>Later, Raswin sits at the table in the inn with Dorlanann and tells him the job he got lined up. “It’s not much,” he says, “but it’s something. And, we need that.” </p>
+<p>Dorlanann nods and pulls out a bag and slides it over. “It’s more heal potions. We’ll likely need them and you used all yours.” Raswin takes the bag with a grateful nod.</p>
+<blockquote><p>He’ll have bought three more.</p>
+</blockquote>
+<p>The next morning, they meet Mist on the outskirts of town. She has a heavy cloak on with the hood up. A heavy fog blankets the land.</p>
+<p>“I want to get an early start,” she says. “We still have to <em>find</em> this place.” </p>
+<p>Dorlanann glances at Raswin with a raised eyebrow and Raswin shrugs in response. “It’s an adventure,” he says under his breath. Dorlanann snorts a laugh and they head out.</p>
+<blockquote><p>Mist has a general idea of where to start looking. Her family member would have given her that, at least. So, they’ll have to search to find the trailhead for this trade route. Survival DC 20. Should they fail, some kind of monster will leap out and attack, giving away the location of the trailhead. Neither of my characters is trained in Survival. Raswin has no chance of succeeding without an Action Point. I’ll let them roll. Raswin: 7. Dorlanann: 13. They fail! Time to set up the battlefield on Roll20.</p>
+<p>Let’s roll random monsters from the DMG. 95 gives me 2 black bears. Check for surprise! Move Silently: 15, Dorlanann Listen: 21, Raswin: 24. Yeah, they heard those mofos coming from a mile away! Initiative - Bears: 5, Raswin: 20, Dorlanann: 2. Order is Raswin, Bears, Dorlanann. Mist is not taking part… ‘cause she lazy.</p>
+</blockquote>
+<p><img src="./ssn3-blackbears.jpg" referrerpolicy="no-referrer" alt="Black bear fight"></p>
+<p>There is a rustle in the brush and two enormous (to Raswin) black bears burst free from the foliage. The gnome is quick on his feet and darts forward, angling to get both bears inside his breath weapon’s cone. He breathes in and launches forth a cone of roiling flame.</p>
+<blockquote><p>Both bears must make a Reflex save DC 17. Blue dot: 16, Red dot: 19. Blue fails, Red saves! Damage: 10. Blue is 19-10/9hp, Red is 19-4/14hp.</p>
+</blockquote>
+<p>Raswin darted right next to one of the bears to be able to attack them both, so the bear next to him lashes out with a massive paw. </p>
+<blockquote><p>Attack: 21, damage: 7. Oh, wait. It can do a full attack. It will. Second claw: Natural 1. Bite: 6, miss! Whew!</p>
+</blockquote>
+<p>The gnome cries out in pain as the bear’s claw slams into his side, knocking him stumbling back. The bears other two attacks miss, and Dorlanann rushes forward with an angry cry, drawing his battleaxe.</p>
+<blockquote><p>Attacking the bear next to Raswin. Attack: 26, damage: 8. Blue bear is 9-8/1hp.</p>
+<p>Also, oops! There are <em>two</em> bears. I forgot to have the second one go in my sadistic glee at trying to kill Raswin. It’ll go now.</p>
+</blockquote>
+<p>The second bear bowls forward, charging at Dorlanann to slam into him.</p>
+<blockquote><p>Attack: 12, miss! It has a -2 to AC for the rest of the turn.</p>
+</blockquote>
+<p>The bear slams into Dorlanann, but he weathers the impact without any loss in concentration. Raswin takes a step back, lining himself up once again to use his breath weapon. This time, he breathes out a long line of fire, and it washes over both beasts.</p>
+<blockquote><p>Damage: 9. Blue doesn’t need to make a reflex, because even half will put him down. Red rolls: 3 on the die. Fail! Red 14-9/5hp.</p>
+</blockquote>
+<p>The bear, still angry at Dorlanann, slashes at him with both claws and tries to bite.</p>
+<blockquote><p>Using the full attack! Claws, then bite attack: 22, 7, 7. Only the first claw hits! 5 damage.</p>
+</blockquote>
+<p>Dorlanann grunts as the massive paw slams into him, but he steps forward inside the bears “guard” and slashes at it with his battleaxe. </p>
+<blockquote><p>Attack: 19, damage: 10. It goes down!</p>
+</blockquote>
+<p>A large cut opens up on the bear’s hide and blood gushes out. He hit something vital, internal. With a wet thud, the bear hits the ground. </p>
+<blockquote><p>Neither of these guys have Handle Animal <em>or</em> Knowledge (Nature). The bears’ activities are a little out of normal, but neither of these guys realize that.</p>
+</blockquote>
+<p>Dorlanann steps forward and pokes at the bears a little, making sure they’re not going to give up. As he’s doing that, Raswin pipes up.</p>
+<p>“Hey! I found it!” He points to a small tree with a faint symbol carved into the tree. It’s the symbol Mist told them to watch out for, the symbol that marks the start of the trading route.</p>
+<p>Mist smiles as she walks up to the two of them. “I never doubted that we’d find it.”</p>
+<p>Dorlanann looks at her cooly, and down to the weapon she wears on her hip. “Where were you during the fight? We could have used your help.”</p>
+<blockquote><p>I don’t know what her personality is. Does she blow him off with a casual “This is what I hired you for?” or does she have a legitimate reason? Does she have a legitimate reason? Even odds: 63. No!</p>
+</blockquote>
+<p>“This is what I hired you for,” she says simply with a little smirk. She walks past them, heading towards the trailhead.</p>
+<p>Dorlanann pulls Raswin aside and says in a low voice, “We need to watch her. If she’s not participating in the fights, she’s a coward. She’ll run if it every looks like you and I are in over our heads. We need to watch each other’s backs.”</p>
+<p>Raswin looks up at Dorlanann and nods. “Like we always do,” he answers. He turns and follows Mist. He’s more concerned than he lets on that she didn’t help in the battle. This may be a problem in the future.</p>
+<blockquote><p>I think that’s where I’ll leave it for now! This was a lot of fun.</p>
+</blockquote>
+<blockquote><p>It’s a new day and over a week since I’ve been able to play this game. I’m not 100% sure I’m up to it, but it’s been too long and I want to keep this project alive. Nothing’s going to happen on this game unless I sit down to play it, so here I am!</p>
+</blockquote>
+<p>The group pushes on through the thick brush and stumbles out onto a path. </p>
+<blockquote><p>This is a secret trading route, but it <em>is</em> a trade route. Does it show signs of heavy use? Poor odds: 30, that is a yes! </p>
+</blockquote>
+<p>This ruts mark the path, starting pretty much immediately at the beginning of the path. Dorlanann looks at it in confusion, then shakes his head. Surely it’s magic. That’s what keeps the path hidden and the brush growing over the heavy use the path sees. There’s no other explanation.</p>
+<p>He shakes his head and doesn’t mention anything to Raswin. Right now, he needs to keep his head clear and focusing on Mist. She’s turned out to be a little… he’s not sure what word describes her. Untrustworthy is a good start. </p>
+<p>“So, you just needed a couple of sword-arms to accompany you, is that it?” Dorlanann calls forward to her. </p>
+<p>She looks over her shoulder with a smile and a nod. “That is correct. I have to make it farther along the route to accomplish my mission. I hired you to ensure I make it there.”</p>
+<p>Dorlanann glances down at Raswin who meets his gaze with a shrug. “That was the job,” the gnome says in a soft voice.</p>
+<p>He’s not happy about it, but he has to agree. “It will be hard to protect you when you’re all the way up there. Wait for us,” Dorlanann says.</p>
+<blockquote><p>Does she comply? Even odds: 75, nope!</p>
+</blockquote>
+<p>With a shake of her head, Mist calls back, “There’s no time! We have to hurry!” before rushing forward on the trail.</p>
+<p>With a clipped curse, Dorlanann rushes after her, Raswin following.</p>
+<blockquote><p>They’re in a rush, so they’re not going to be able to look out for threats very well. Something could likely get the drop on them. Are they ambushed? Good odds: 73, yep! What will it be? Let’s find a random table to roll on. Xanathar’s for 5e has a lot of great tables; I’ll roll on that one. A scout or 2d4 guards with mastiffs. I’ll use a wolf for the dog. Is it a scout or the guards? Even is scout: Odd. It’s 4 guards. I’ll give them random NPC classes from the DMG. 1: Warrior, 2: Expert, 3: Warrior, 4: Expert. Well, that’s funny! 😆</p>
+<p>Warriors 2: S15 D13 C14 I8 W10 C12, 16hp, AC14, Longsword +4 1d8+2, F5 R1 W0
+Experts 2: S8 D14 C13 I15 W10 C12, 11hp, AC14, Short bow +4 1d6, F1 R2 W3</p>
+<p>And, now to set up the map! The red dot is the wolf, the green dots are the warriors and the purple dots are the experts. They are ambushing, so I need to see who on my side is aware. Spot rolls, Dorlanann: 7, Raswin: 22. Hide rolls, Warriors: 7, Experts: 12. Raswin is aware. Initiative! Dorlanann: 7, Raswin: 10, Wolf: 21, Warriors: 7, Experts: 22. Order is Experts, Wolf, Raswin, Dorlanann, Warriors.</p>
+</blockquote>
+<p><img src="ssn3-forestpath.jpg" referrerpolicy="no-referrer" alt="Forest Path battle"></p>
+<p>They make their way through the forest, along the rutted path. Mist keeps them at a quick pace, and it bites them in the rear when, suddenly, a cry goes up from the forest. From the brush alongside the path, a figure bursts out and rushes forward wielding a bow. They draw an arrow, nock it, and fire it at Dorlanann. </p>
+<blockquote><p>Attack: 6, Miss!</p>
+</blockquote>
+<p>A second figure rushes out, also drawing, nocking and firing an arrow. This one is fired at Raswin.</p>
+<blockquote><p>Attack: 12. Miss!</p>
+</blockquote>
+<p>The second arrow swishes through the air, high above Raswin’s head. Raswin, as the only one ready for a fight, steps forward, inhaling a deep breath.</p>
+<blockquote><p>Technically, I suppose we should only have gotten a standard action in this surprise round. Imma do what I want, though. Full action! (Mostly, I forgot and don’t want to change what’s happened, so I’m rolling with it.)</p>
+</blockquote>
+<p>He breathes out a cone of fire and it washes over the archers. They scream in fear as they try and get out of the way of the flames.</p>
+<blockquote><p>Reflex save DC of 17. 1: 18, 2: 16. The first one makes it! Damage: 8 The first one takes half and the second takes full. They’re not doing so well.</p>
+<p>Aaaaand, I forgot the wolf. Okay, he’ll go now.</p>
+</blockquote>
+<p>There is a sudden growl and a huge ball of fur launches itself from the foliage at the side of the path, rushing towards Dorlanann. As it reaches him, he snaps at him with its powerful jaws.</p>
+<blockquote><p>Attack: 21, hits! Damage: 5. It will attempt a Trip as a free action. Wolf Strength: 12, Dorlanann Strength: 12. Tie! Dorlanann has the higher modifier, so he’ll break the tie in his favor. Actually, Dorlanann was essentially setting the DC, so the wolf <em>does</em> trip him.</p>
+</blockquote>
+<p>The wolf’s jaws snap onto Dorlanann’s arm and he viciously shakes him. The half-elf loses his balance and crashes to the ground with the sound of tumbling metal.</p>
+<p>Dorlanann is still stunned by the appearance of the enemy, and the two warriors take advantage of that, rushing forward to join in the fight. The first one sprints to join the wolf against Dorlanann, skidding to a halt on the dusty path. The second one rushes around Raswin to catch him in between himself and the archers. Raswin takes a swing at him with his spear…</p>
+<blockquote><p>The enemy gave him an attack of opportunity to set up flanking for this attack. AoO : Natural 1. Miss! The enemy rolls to attack: 17. Hit! 5 damage. Raswin is down to 13hp! The Experts will go next.</p>
+</blockquote>
+<p>… and misses! The warrior jabs at him with his sword, slicing a cut along the gnomes ribs. He cries out in pain, then the archer next to him takes a step back, draws another arrow, and fires it.</p>
+<blockquote><p>Attack: 14, that’s a hit. Damage: 5. Ouch!</p>
+</blockquote>
+<p>The second archer turns and fires at Raswin as well. “Kill the mage!” they yell.</p>
+<blockquote><p>Attack: 14, hits. Damage: 5 more. He’s down to 3! He should have drank a potion before. Now, it’s the wolf.</p>
+</blockquote>
+<p>The wolf stands over Dorlanann and pounces forward, snapping its jaws at him.</p>
+<blockquote><p>Attack: Natural 20. 9 does not confirm. Just a regular hit! Damage: 6. </p>
+</blockquote>
+<p>Its fangs tear strips from Dorlanann’s clothing and into his flesh. </p>
+<p>Raswin takes a step away from the warrior that flanked him and inhales, then exhales another cone of flame over the two archers. </p>
+<blockquote><p>DC 17, Reflex saves. 1: 12, 2: 8. They both fail! Damage: 7. That reduces them both to zero or less. He’s an NPC class, so I’m not going to have him keep fighting at 0hp. He’ll fall to the ground.</p>
+</blockquote>
+<p>Both of the archers fall to the ground, screaming as flame crawls over their bodies, burning their flesh. Dorlanann rolls over his shoulder, trying to come to his feet. The wolf lunges at him, slashing at him with its fangs.</p>
+<blockquote><p>Attack of Opportunity by the wolf: 10, miss!</p>
+</blockquote>
+<p>Dorlanann responds by ripping his battleaxe free from his belt and slashing at the wolf.</p>
+<blockquote><p>Attack: 23, hit! Damage: 11. The wolf is still up with 2hp!</p>
+</blockquote>
+<p>The warrior next to Raswin screams his rage at the death of the two archers and lunges forward and stabs at Raswin with his sword.</p>
+<blockquote><p>Attack: 17, that hits. Damage: 5. That drops Raswin to -2!</p>
+</blockquote>
+<p>The other warrior maneuvers around an alarmed Mist to put Dorlanann between himself and the wolf. Dorlanann takes a swipe at him with his battleaxe.</p>
+<blockquote><p>AoO: 28, hit! Damage: 10. </p>
+</blockquote>
+<p>The slash catches the warrior in the gut and he grunts before slashing back at Dorlanann.</p>
+<blockquote><p>Attack: 19 on the die, threat! And it confirms, Crit! Damage: 14. That’s half of what he had left!</p>
+</blockquote>
+<p>The slash catches Dorlanann on the side of his armor with a loud crash. Pain blossoms in his chest from the impact as his armor dents around it.</p>
+<blockquote><p>We’re back on top. There are no Experts, so the wolf goes! Attack: 17 misses.</p>
+</blockquote>
+<p>The wolf tries to take advantage of Dorlanann’s shock, but it’s too slow and its snapping jaws miss grabbing hold of the half-elf.</p>
+<blockquote><p>It’s Raswin’s turn and he has to roll to stabilize. Roll: 50, he’s at -3.</p>
+</blockquote>
+<p>Dorlanann slashes ferociously at the wolf.</p>
+<blockquote><p>Attack: 14, that just hits! Damage, don’t need to roll it. The wolf is down.</p>
+</blockquote>
+<p>The blade slashes through the wolf’s coat, deep into its tissues. With a yelp, it turns and darts away. It only makes it a few feet before it collapses to the ground. With a snarl, Dorlanann turns to face warrior behind him.</p>
+<p>The warrior responds with a wicked slash with his sword.</p>
+<blockquote><p>Attack: 14 on the die misses!</p>
+</blockquote>
+<p>The other warrior rushes over to help his companion with Dorlanann. </p>
+<blockquote><p>Attack: 21, just hits! Damage: 4. Back to the top, Dorlanann goes!</p>
+</blockquote>
+<p>Dorlanann, blood coating his teeth, growls and slashes at the warrior he’d turned to face. “An unprovoked attack warrants no mercy!” he screams.</p>
+<blockquote><p>Attack: 20, that’s a hit! Damage: 9. That puts him down. There’s only one warrior left. He started outnumbering them and now he’s alone. I think he gives up. Does he flee or surrender? The question is: Does he surrender? Even odds: 15, he surrenders!</p>
+</blockquote>
+<p>With a clatter of steel, the last warrior throws down his blade and holds up his hands. “I yield!” he shouts. Dorlanann mutters something about cowards, then yanks a potion from his belt and strolls over to Raswin’s side. Yanking the stopper out with his teeth, he leans down and pours the potion into his friend’s throat.</p>
+<blockquote><p>I’ll be using a house rule that healing starts from 0. It always felt bad to waste a potion going from one negative number to another. Raswin gets 7hp back. And, I think I’ll leave it there for the night! This was a lot of fun; I’m glad I did this. Next time I play, HEAL!</p>
+</blockquote>
+<p>Raswin’s eyes open and he sits bolt upright, coughing against the potion bottle. Dorlanann whips it away from his mouth and Raswin takes a deep breath. “Thank you!” he coughs out. Dorlanann pats him on the back, then moves back to the defeated enemy.</p>
+<p>Dorlanann is shorter than the surrendered enemy, but he cuts an imposing figure. With a scowl, he glares at the enemy and growls, “Why did you attack us?”</p>
+<blockquote><p>I know they attacked because I decided an ambush would make a good story beat. But, there has to be an in-character reason. A random attack happening on a secret trade route doesn’t make a whole lot of sense. I’ll roll on the action tables to see why this ambush was here. Struggle/Love. Well… that’s an interesting combination for this event. They are, or were, doing this because of someone they love. Someone is pulling their strings and forcing them to do this because they’re holding a loved one hostage. </p>
+</blockquote>
+<p>The enemy’s shoulders slump and he moves to the side of the trail and falls to sit on a small boulder there. His elbows rest on his knees and his head hangs down.</p>
+<p>“We were commanded to lie in wait on this road and ambush anyone who came down it,” he mutters.</p>
+<p>Dorlanann’s scowl grows. “Commanded. By whom?”</p>
+<blockquote><p>Does this guy know who commanded him? Bad odds: 50, that’s a no! </p>
+</blockquote>
+<p>He shrugs, looking up at the elf. “I don’t know their name. Or where they’re from. All I know is that we were guarding a caravan coming across the trade route when we were attacked. They killed most everyone, subdued us, the defenders, and captured…”</p>
+<blockquote><p>Ok, who did they capture? Is this love romantic or something else? Even odds: 83, something else. Probably familial. Is the hostage man or woman? Even v. odd: 9, a woman.</p>
+</blockquote>
+<p>“… our sister.” His shoulders shake with a barely restrained sob. “Now, you’ve killed everyone here and <em>they</em> will kill our sister when they learn we failed!”</p>
+<p>Dorlanann stares down at the man who was his enemy. The man’s story almost moves him, but—</p>
+<p>“Those are the risks of the business you chose,” he finally says.</p>
+<p>Raswin stands and limps over to stand in front of the enemy fighter. Even with the man sitting on the boulder, he’s still taller than the gnome. The dappled sunlight coming through the canopy glints off of the scales dusting Raswin’s cheekbones and the back of his neck. “Tell us more about the person who captured your sister.”</p>
+<p>The man looks up, his eyes haunted. “They are powerful. They used magic to attack our little caravan. The battle was over almost before it had begun.” He takes a shuddering breath. “They are <em>very</em> powerful.”</p>
+<p>From behind them, a voice pipes up: Mist. “That’s who we’re here to destroy,” she says. Both Dorlanann and Raswin stiffen at the sound of her voice, and turn to confront her.</p>
+<p>“Where were you?” Dorlanann hisses.</p>
+<p>Mist simply shrugs. “I told you, this is the reason I hired you. And, you both came out all right.”</p>
+<p>Dorlanann grinds his teeth. “You’re not paying enough for the amount of trouble we’ve been encountering.”</p>
+<blockquote><p>I’ll roll an Intimidation v. DC 10. If he succeeds, she’ll double the pay. Roll: 7. I’ll use an Action point: +2, that’s a fail.</p>
+</blockquote>
+<p>Mist stares back, unperturbed. “You agreed to the terms,” she offers with a small shrug. </p>
+<blockquote><p>I’m getting too deep into the conversation and not advancing the plot much. I’m going to take a step back and narrate what’s going on.</p>
+</blockquote>
+<p>They discuss and Mist confirms that this “they” the enemy speaks of is, indeed, the monster blocking the trade route. Mist says they need to remove them from the route to open it back up. Raswin talks to the enemy and tries to convince him to join them. If they can destroy this person, they’ll free his sister. </p>
+<blockquote><p>Diplomacy DC 15, +2 because Raswin says they’ll try to free the sister. Roll: 20 total. </p>
+</blockquote>
+<p>The man slowly stands and agrees to come with them, in an attempt at freeing his sister. “We’re all each other has left, now,” he says, looking sadly at the bodies left on the battlefield. He asks to bury them, but Mist shakes her head.</p>
+<p>“There’s no time.”</p>
+<p>Raswin and Dorlanann will ask the enemy if the brothers have any useful gear they could take to help them moving forward.</p>
+<blockquote><p>Do they? Even odds: 04, yes! 20k sp, A wand of false life. No potions. Too bad.</p>
+</blockquote>
+<p>Raswin puts the new wand with his other two, then pulls out one of them to help him cure himself and Dorlanann.</p>
+<blockquote><p>Using the wand of cure light wounds. Now, I have to Use Magic Device to get it activated! I’ve never used that skill before, so this will be fun. First roll gives me exactly a 20! Used it a total of 8 times. Rolling time after time when there’s no real rush seems silly. I should have just taken 20. 🤷‍♂ Oh… re-reading the spell and I can’t use it again for 24 hours if I roll a 1. I got a couple 1s. I’ll have to remember that for next time. <em>That</em> adds some fun drama!</p>
+</blockquote>
+<p>Mist gets impatient and starts pacing, but seems to realize that her bodyguards will not be worth much if they’re not able to heal before moving on. Once everyone is ready to hit the road again, Mist starts down the path at her quick pace. Dorlanann asks the enemy, whose name is Brem, if the magic-user has any other groups set out to ambush along the road.</p>
+<blockquote><p>Does Brem know? Even odds: 50, yes. So, are there? Even odds: 66, critical no! </p>
+</blockquote>
+<p>Brem shakes his head. As far as he knows, the magic-user was completely alone before capturing his group. The magic-user will have no other protectors, now.</p>
+<p>With that, Dorlanann moves forward next to Mist and lets her know that they can move faster. There are no other threats on the road, at least, not from the magic-user.</p>
+<blockquote><p>I think that’s where I’ll leave it for now. I’m not into it as much as I want to be. The past week has been overly stressful and being creative takes energy I don’t have, atm. So, I’ll come back to this later! I <em>did</em> make some great progress, though. Using UMD for the first time, and developing the story this way, was a lot of fun.</p>
+</blockquote>
+<blockquote><p>It&#39;s been over two months since I&#39;ve played this game. I had to go through and review everything that&#39;s happened. I still don&#39;t know what this monster is at the end of the trail and I think I&#39;m going to encounter them today.</p>
+</blockquote>
+<p>The group rushes forward along the trade route, eager to reach the monster who is threatening trade so much. As they walk, Raswin will ask Brem what kind of monster it is. </p>
+<blockquote><p>We already know it&#39;s <em>very</em> powerful. It uses magic. It&#39;s a monster, so I need a powerful, magic-using monster, but something that a pair of 4th level adventurers could handle. Time to look at the Monster Manual! A Yuan-ti Pureblood looks like a fun enemy. </p>
+</blockquote>
+<p>They travel for some time, no more than a couple hours, before Brem stops them and says in a quiet voice, &quot;We&#39;re nearly there.&quot; The group stops and Raswin looks between Brem and Dorlanann.</p>
+<p>&quot;We need to know what the layout of the land is where this monster is. I&#39;m not that stealthy, but I can move more quietly than you can,&quot; he gestures to the fighter. Dorlanann nods and pulls his battleaxe free. </p>
+<p>&quot;If anything should happen, cry out and I&#39;ll come running.&quot;</p>
+<blockquote><p>Raswin is going to attempt to sneak up and get a look at the area this Yuan-ti is in. Move Silently: 15. Yuan-ti Listen: 22. Does the Yuan-ti try and hide, or pass itself off as human? Even odds: 32, it tries to hide. Hide: 14, Raswin Spot: 22. </p>
+</blockquote>
+<p>Raswin creeps through the forest, trying to move as quietly as he can. He winces at each scrape of leaves against his clothes, each crack of deadfall under his feet. He comes to a small clearing and peers into it. The clearing is empty of people, though it is obviously inhabited. His eyes scan the area until he sees a mottled pattern under one bush. A leg, a scaled leg. The monster is hiding from him, so it must have heard his approach. They&#39;ve lose the element of surprise. </p>
+<p>He calls back, &quot;Dorlanann!&quot; and the fighter crashes through the brush to his side. </p>
+<blockquote><p>Does the Yuan-ti come out of hiding? Does it realize it was spotted? Even odds: 69, that&#39;s a no! So it will stay hidden.</p>
+<p>I&#39;ve been enjoying making maps and this seems like a great opportunity to make a small battle map.</p>
+<p>And, map is made! That didn&#39;t take very long at all, but it&#39;s easy when all you do is put symbols on a dirt background. Now to put it into Roll20 and get the battle set up!</p>
+</blockquote>
+<p><img src="C:\Users\Axel\Dropbox\Devon\TXT Gaming\Solo Gaming\The Dragons DnD 3e\ssn3-YuantiCamp.jpg" referrerpolicy="no-referrer" alt="Yuan-ti Camp Battle Map"></p>
+<blockquote><p>And it&#39;s the next day, Labor Day! It&#39;s hard to stay motivated for <em>anything</em> these days. Now I need to roll initiative! Raswin: 14, Dorlanann: 17, Yuan-ti: 25. It&#39;s Yuan-ti, Dorlanann, then Raswin.</p>
+</blockquote>
+<p>The Yuan-ti, having decided to stay hidden, will nevertheless cast a spell, Darkness. It&#39;s harsh sibilant words echo across the campsite, then darkness expands from the center point of the tree next to the monster.</p>
+<p>Dorlanann curses, then ducks his head and hurries across the clearing to a spot on the other side of the tree the darkness is centered on. He doesn&#39;t know the abilities of this monster, and doesn&#39;t want to open himself up to a ranged attack.</p>
+<p>Raswin rushes forward until he stands close to the fire, just inside the circle of darkness, and breathes out a line of lightning.</p>
+<blockquote><p>The breath weapon is not a to-hit roll, so there&#39;s no miss chance! The Yuan-ti needs to roll a save, 13 v. 17. That&#39;s a fail! Five damage. YT is 18hp-5/13.</p>
+</blockquote>
+<p>There&#39;s a hissing curse as the lightning streaks over the yuan-ti&#39;s form, and it leaps out and flashes its fangs at Raswin, harsh syllables of language slashing across the air between them.</p>
+<blockquote><p>It&#39;s going to cast Cause Fear. That&#39;s a Will save for Raswin, DC 12. He rolls 20. He&#39;s good! Except, he&#39;s Shaken. He takes a -2 on all rolls as the fear startles him.</p>
+</blockquote>
+<p>Raswin stumbles backwards half a step as the snake-person throws itself in his direction. Dorlanann takes advantage of the momentary distraction and charges in and swings his battle axe with a guttural cry.</p>
+<blockquote><p>He wasn&#39;t more than 10 feet away so he can&#39;t mechanically charge. Miss chance of 20% for darkness: 55. Attack roll: 27, Damage: 10. 13-10/3 for the yuan-ti.</p>
+</blockquote>
+<p>The snake-person rears back as Dorlanann&#39;s blade slashes into its scales, cutting deep into its flesh. Raswin shakes his head to clear the fear from it, and breaths another line of lightning at the monster.</p>
+<blockquote><p>It&#39;s Reflex save: 17. That will halve the damage of 8, so 4. It goes down!</p>
+</blockquote>
+<p>The yuan-ti&#39;s muscles twitch and spasm as the lightning shoots through its body again, then its eyes roll back in its head and it collapses to the ground. </p>
+<blockquote><p>That was too easy. Right? Was that too easy? This monster was supposed to be an average challenge for a party of 4 level 3 heroes. I have 2 level 4 heroes that took it down without breaking a sweat. Does it have someone with it? Even odds: 38, yes. Another yuan-ti? Good odds: 49, yes. Probably a half-blood. That&#39;s a much bigger threat, and better for Eberron.</p>
+<p>It&#39;s hiding. Let&#39;s see if we hear it before it attacks. Move Silently: 19, Raswin Listen: 21, Dorlanann: 11.</p>
+</blockquote>
+<p>A ruslting in the brush alerts Raswin who spins and sees another scaly monster coming towards them.</p>
+<blockquote><p>Initiative again! Raswin: 13, Dorlanann: 9, Yuan-ti: 20. We have a surprise round first, YT and Raswin. Then it goes YT, Raswin, Dorlanann.</p>
+</blockquote>
+<p>This one seems larger than the other, and its magic words seem harsher. As the words slash towards them, the plants all around them seem to grow sharper, then grow longer, twisting around their feet and legs.</p>
+<blockquote><p>It&#39;s casting Entangle. They must Reflex save, DC 14. Raswin: 15, Dorlanann: 14. They both made it, barely. The vines and leaves reach for them, but they both manage to slip away.</p>
+</blockquote>
+<p>Raswin doesn&#39;t bother moving and takes a deep breath, letting loose another bolt of lightning from his mouth.</p>
+<blockquote><p>YT Reflex save: 21, he takes half of 7, so 3. 38-3/35.</p>
+<p>That will end the surprise round, we&#39;re back on top and the YT goes first.</p>
+</blockquote>
+<p>The yuan-ti whips a wicked looking bow from its back and nocks an arrow, aiming for Raswin. The gnome&#39;s eyes go wide and he tries to make himself a smaller target by ducking.</p>
+<blockquote><p>YT attack: 25, damage: 4. It won&#39;t be able to take a full-round action because it had to draw its bow.</p>
+</blockquote>
+<p>The arrow tears through Raswin&#39;s shirt, putting a deep scratch into his shoulder. He winces, but lets loose with another blast of lightning.</p>
+<blockquote><p>YT Reflex save: 7. Damage: 7, 35-7/28.</p>
+<p>Oh, I forgot, the plants get another chance to entangle Raswin. Reflex: 19 on the die, he&#39;s good.</p>
+</blockquote>
+<p>Dorlanann yells out in wordless menace, and slogs through the grasping vines. It takes him too long to reach the monster.</p>
+<blockquote><p>He&#39;s doing a double move, which will bring him out of the entangled area.</p>
+</blockquote>
+<p>The yuan-ti grins with its mouth full of razor-sharp teeth as Dorlanann approaches it. Dropping its bow, it draws a wicked looking scimitar and slashes at the half-elf. </p>
+<blockquote><p>Attack: Natural 1. Miss!</p>
+</blockquote>
+<p>Before Dorlanann can respond in kind, Raswin sends another bolt of lightning flashing across the ground towards the monster.</p>
+<blockquote><p>Reflex save: 19 on the die. It takes half of 2, so 1.28-1/27</p>
+</blockquote>
+<p>Dorlanann&#39;s face is grim as he grips his battle axe, and he swings it with all his might.</p>
+<blockquote><p>Attack: 25, hit! Damage: 14, 27-14/13.</p>
+</blockquote>
+<p>Dorlanann&#39;s blade clangs on the snake-person&#39;s tough scales, but blood flows when he wrenches the blade free. The snake glances down at the wound and hisses with hatred. Its own blade lashes out.</p>
+<blockquote><p>Attack: Natural 1. Wow, that&#39;s pretty incredible.</p>
+</blockquote>
+<p>Raswin, a little frightened to see Dorlanann confronting the menacing creature so close, sends another bolt of lightning that way, getting a little lightheaded with all the heavy breathing.</p>
+<blockquote><p>YT Reflex save: Natural 1, which means it&#39;s way below the DC. I can&#39;t believe my die is rolling this many 1s! It takes 3 damage. 13-3/10.</p>
+</blockquote>
+<p>Dorlanann bares his own teeth and swings his battle axe into the yuan-ti again, putting all the force he can behind it.</p>
+<blockquote><p>Attack: 14, miss!</p>
+</blockquote>
+<p>The blade skips over the monster&#39;s scales, and Dorlanann stumbles slightly with the force of the missed swing.</p>
+<p>The yuan-ti hisses and slashes twice at Dorlanann.</p>
+<blockquote><p>Attack 1: 22, hit. Attack 2: 24. The second attack is a threat, but does not confirm. Total damage: 13.</p>
+</blockquote>
+<p>The two slashes catch Dorlanann over areas not protected by his armor, slashing skin open and letting blood flow. The half-elf curses with angry pain.</p>
+<p>Raswin struggles to take a step forward, screaming out his companion&#39;s name. The lightning that bursts forth from his mouth takes on the shape of the letters as it washes over their attacker.</p>
+<blockquote><p>YT Reflex: 11, it takes 7 damage. 10-7/3</p>
+</blockquote>
+<p>Dorlanann sees how badly injured the monster is and sets his feet for another powerful swing.</p>
+<blockquote><p>Attack: 25, hit! 13 damage. That instantly kills the yuan-ti halfblood.</p>
+</blockquote>
+<p>The battle axe slams into the monster&#39;s middle and cuts through scales, skin, muscle and organs all together. The body flesh parts and the monster&#39;s innards spill out. It looks down at the wound with a shocked expression before it collapses to the ground, completely limp.</p>
+<p>The pair start to pull the bodies together, away from the fire and the loot they had collected. Raswin calls out for Mist and Brem. They make their way through the brush just as the pair finish washing the blood from their hands.</p>
+<p>The mission is over, the monsters slain.</p>
+<blockquote><p>Does Brem find his sister? Even odds: 73. No! Did the snakes eat her? Good odds: 10, yes. </p>
+</blockquote>
+<p>Brem is frantic looking around and finds a pile of body parts, among them something of his sister. His anguished cry startles the birds that had just started to return. Raswin and Dorlanann try to console him, a bit half-hearted, but Brem pushes them away and rushes off into the forest. </p>
+<p>Mist shrugs and tells them not to worry about Brem. She gives them the gold she promised, and tells them to help themselves to the loot the monsters left behind.</p>
+<blockquote><p>I get some treasure! Both monsters have double the standard loot. That&#39;ll go pretty far for these two! I&#39;ll need to generate it. </p>
+<p>For the Pureblood: 200gp, 1 gem (50gp), 1 minor item (Shield of Faith +3)</p>
+<p>For the Half-blood: 700gp, 4 gems(50gp), 4 mundane items (MW thieves tools, Good lock (80gp), Darkwood light shield (203gp), MW Greatsword (400gp), 1 minor item (Scroll of Reduce Animal CL 3)</p>
+<p>They have now spent 2 sessions at the same level, so I will bump them up to 5th. Advancement, yay! They&#39;ll have to return to town, rest, and sell their loot. I&#39;m sure I can have some adventures while that happens.</p>
+<p>But, that will end this session! Woo!</p>
+</blockquote>
+
+```
